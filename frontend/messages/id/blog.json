@@ -1,0 +1,428 @@
+{
+  "shell": {
+    "home": "Beranda",
+    "blog": "Blog",
+    "blogNav": "Navigasi blog",
+    "allArticles": "Semua artikel",
+    "startClipping": "Mulai buat clip",
+    "breadcrumbNav": "Jejak",
+    "byline": "Oleh Shortsmith · Diperbarui <date>{when}</date> · {readingTime}",
+    "updated": "Diperbarui <date>{when}</date>",
+    "inThisArticle": "Di artikel ini",
+    "faqHeading": "Pertanyaan yang sering diajukan",
+    "faq": "FAQ",
+    "startAria": "Mulai dengan Shortsmith",
+    "ctaTitle": "Coba di satu rekaman yang kamu kenal baik.",
+    "ctaBody": "Pakai aplikasi yang di-host, atau jalankan kode open source yang sama di mesinmu sendiri.",
+    "getSource": "Ambil sumbernya",
+    "keepReading": "Lanjut baca"
+  },
+  "index": {
+    "metaTitle": "Blog Shortsmith | Panduan AI Video Clipping",
+    "metaDescription": "Panduan praktis, perbandingan produk, dan alur kerja kreator untuk mengubah video bentuk panjang jadi short yang siap untuk sosial dengan Shortsmith.",
+    "ogTitle": "Blog Shortsmith",
+    "ogDescription": "Panduan dan perbandingan untuk AI video clipping, caption otomatis, reframing vertikal, dan alur kerja video pendek.",
+    "hostedApp": "Aplikasi yang di-host",
+    "startClipping": "Mulai buat clip",
+    "creatorGuides": "Panduan kreator",
+    "tryHosted": "Coba Shortsmith yang di-host",
+    "heading": "Panduan praktis untuk mengubah video panjang jadi short yang lebih baik.",
+    "intro": "Perbandingan, alur kerja, dan saran edit untuk kreator yang ingin alur clipping yang bisa diulang, caption yang lebih bersih, dan kendali lebih atas pipeline video mereka.",
+    "readArticle": "Baca artikel",
+    "openSource": "Open source",
+    "openSourceClipping": "Clipping open source",
+    "moreGuides": "Panduan clipping lainnya",
+    "productGuides": "Panduan produk"
+  },
+  "shortsmith-vs-opusclip": {
+    "title": "Shortsmith vs OpusClip: Perbandingan Bersumber",
+    "description": "Shortsmith vs OpusClip dibandingkan pada deployment, model harga, watermark, pilihan model, dan alur kerja, dengan sumber yang tertaut untuk setiap klaim.",
+    "eyebrow": "Perbandingan OpusClip",
+    "category": "Perbandingan",
+    "readingTime": "7 mnt baca",
+    "summary": "Perbandingan berdampingan tentang apa yang didokumentasikan tiap produk, di mana keduanya berbeda, dan mana yang cocok dengan alur kerjamu.",
+    "breadcrumb": "Shortsmith vs OpusClip",
+    "notCovered": "Tidak dibahas oleh sumber di bawah",
+    "toc": {
+      "verdict": "Jawaban singkat",
+      "comparison": "Berdampingan",
+      "pricing": "Model harga",
+      "choose-shortsmith": "Kapan Shortsmith cocok",
+      "choose-opusclip": "Kapan OpusClip cocok",
+      "test": "Jalankan tesmu sendiri",
+      "sources": "Sumber",
+      "faq": "FAQ"
+    },
+    "faqs": {
+      "0": {
+        "question": "Apakah Shortsmith lebih baik daripada OpusClip?",
+        "answer": "Tergantung apa yang kamu butuhkan. Shortsmith lebih cocok kalau kamu ingin akses sumber, host sendiri, atau pilihan model AI-mu sendiri. OpusClip lebih cocok kalau kamu ingin produk yang dikelola dengan paket gratis untuk dicoba. Kami tidak mengklaim salah satunya menghasilkan clip yang lebih baik, karena kami belum menjalankan tes terkontrol yang mendukung itu."
+      },
+      "1": {
+        "question": "Apakah Shortsmith menambahkan watermark?",
+        "answer": "Tidak. Pipeline render Shortsmith tidak punya langkah watermark, baik di aplikasi yang di-host maupun instalasi yang di-host sendiri. Pusat bantuan OpusClip mengatakan ekspor paket gratis bisa menyertakan watermark OpusClip."
+      },
+      "2": {
+        "question": "Apakah Shortsmith yang di-host punya paket gratis?",
+        "answer": "Tidak. Aplikasi yang di-host membutuhkan langganan Pro atau Creator untuk memproses video. Jalur gratisnya adalah host sendiri kode open source, yang tidak punya batas paket; kamu hanya membayar infrastruktur sendiri dan penyedia AI yang kamu konfigurasi."
+      },
+      "3": {
+        "question": "Yang mana lebih cepat atau membuat clip yang lebih baik?",
+        "answer": "Kami belum memublikasikan tes terkontrol untuk kecepatan atau kualitas clip, jadi kami tidak membuat klaim itu. Hasil bergantung pada videomu dan pengaturan; langkah tes yang adil di halaman ini menunjukkan cara membandingkannya pada kontenmu sendiri."
+      }
+    },
+    "intro": "OpusClip membantu mendefinisikan AI clipping: unggah video panjang, dapatkan clip vertikal pendek kembali. Shortsmith mengerjakan pekerjaan yang sama sebagai proyek open source yang bisa kamu pakai dalam versi yang di-host atau jalankan sendiri. Perbandingan ini berpegang pada apa yang didokumentasikan tiap produk. Klaim Shortsmith tertaut ke kode sumber kami. Klaim OpusClip tertaut ke pusat bantuan OpusClip sendiri. Kalau sebuah sumber tidak membahas sesuatu, tabel mengatakannya, bukan menebak.",
+    "introNote": "Halaman ini tidak menilai kualitas clip, akurasi caption, atau kecepatan pemrosesan. Untuk membandingkan itu, lihat <test>cara menjalankan tesmu sendiri</test>.",
+    "verdict": {
+      "heading": "Jawaban singkatnya",
+      "shortsmith": "<strong>Pilih Shortsmith</strong> kalau kamu ingin host sendiri, memeriksa atau mengubah kode, memilih model AI-mu sendiri (termasuk yang sepenuhnya lokal), atau mengekspor tanpa watermark.",
+      "opusclip": "<strong>Pilih OpusClip</strong> kalau kamu ingin produk yang dikelola dan tidak perlu di-deploy, dan ingin mulai di paket gratis."
+    },
+    "comparison": {
+      "heading": "Berdampingan",
+      "caption": "Perbandingan Shortsmith dan OpusClip beserta sumber",
+      "area": "Area",
+      "footnote": "“Tidak dibahas oleh sumber di bawah” berarti artikel pusat bantuan OpusClip yang dikutip tidak membahasnya. Itu tidak berarti OpusClip tidak punya fiturnya. Cek <site>opus.pro</site> untuk apa pun yang tidak tercantum di sini."
+    },
+    "rows": {
+      "deployment": {
+        "label": "Cara menjalankannya",
+        "shortsmith": "Aplikasi yang di-host atau host sendiri dengan <compose>Docker Compose</compose>",
+        "opusclip": "Layanan yang di-host"
+      },
+      "source": {
+        "label": "Kode sumber",
+        "shortsmith": "Publik, <license>AGPL-3.0</license>"
+      },
+      "pricing": {
+        "label": "Model harga",
+        "shortsmith": "Yang di-host: paket bulanan dengan jumlah video tetap. Yang di-host sendiri: tanpa batas paket.",
+        "opusclip": "Paket dengan kredit untuk menit pemrosesan, plus paket gratis (<plans>pusat bantuan</plans>)"
+      },
+      "watermark": {
+        "label": "Watermark",
+        "shortsmith": "Tidak ada; <pipeline>pipeline render</pipeline> tidak punya langkah watermark",
+        "opusclip": "Ekspor paket gratis bisa menyertakannya (<watermark>pusat bantuan</watermark>)"
+      },
+      "models": {
+        "label": "Pilihan model AI",
+        "shortsmith": "OpenAI, Google, Anthropic, OpenRouter, atau Ollama lokal (<config>konfigurasi</config>)"
+      },
+      "transcription": {
+        "label": "Transkripsi",
+        "shortsmith": "AssemblyAI, Whisper lokal, atau caption YouTube"
+      },
+      "automation": {
+        "label": "Otomatisasi",
+        "shortsmith": "REST API dengan kunci per pengguna dan <mcp>server MCP</mcp>"
+      }
+    },
+    "pricing": {
+      "heading": "Model harga: kredit vs. paket vs. infrastrukturmu sendiri",
+      "p1": "Artikel <plans>paket dan kredit</plans> OpusClip menjelaskan paket berbayar yang memakai kredit untuk menit pemrosesan, plus paket gratis. Artikel <watermark>watermark</watermark>-nya mengatakan ekspor paket gratis bisa membawa watermark OpusClip. Harga paket dan jumlah kredit berubah, jadi cek halaman harga OpusClip yang terkini alih-alih mengandalkan angka yang disalin ke postingan blog.",
+      "p2": "Shortsmith menawarkan dua jalur. Aplikasi yang di-host punya <pro>{proName}</pro> seharga ${proPrice}/bulan untuk {proLimit} jam video dalam 720p dan <scale>{scaleName}</scale> seharga ${scalePrice}/bulan untuk {scaleLimit} jam dalam 1080p, dengan tagihan tahunan setara dua bulan gratis. Tidak ada paket yang di-host secara gratis; pemrosesan membutuhkan langganan. Jalur host sendiri adalah perangkat lunak gratis tanpa batas paket. Kamu membayar server dan API AI apa pun yang kamu konfigurasi, dan <guide>panduan host sendiri</guide> menunjukkan penyiapan yang sepenuhnya lokal tanpa biaya AI per permintaan."
+    },
+    "chooseShortsmith": {
+      "heading": "Kapan Shortsmith lebih cocok",
+      "li1": "<strong>Kamu butuh kendali atas ke mana video pergi.</strong> Host sendiri menjaga aplikasi, basis data, dan clip yang dirender di infrastrukturmu. Dengan Whisper dan Ollama, transkripsi dan pemilihan clip juga berjalan secara lokal.",
+      "li2": "<strong>Kamu punya katalog lama yang besar.</strong> Instalasi yang di-host sendiri tidak punya batas video bulanan. Throughput bergantung pada perangkat dan batas penyedia.",
+      "li3": "<strong>Kamu ingin mengubah cara clip dipilih.</strong> Prompt pemilihan, penilaian, template caption, dan rendering semuanya ada di repositori.",
+      "li4": "<strong>Kamu sedang membangun clipping ke dalam alat lain.</strong> Kunci API, REST API, dan server MCP memungkinkan skrip dan agen AI membuat serta mengunduh clip."
+    },
+    "chooseOpusclip": {
+      "heading": "Kapan OpusClip lebih cocok",
+      "li1": "<strong>Kamu tidak ingin mengoperasikan apa pun.</strong> Host sendiri berarti mengelola Docker, kunci penyedia, pembaruan, dan cadangan.",
+      "li2": "<strong>Kamu ingin mencoba sebelum membayar.</strong> OpusClip mendokumentasikan paket gratis (dengan kemungkinan watermark). Shortsmith yang di-host tidak punya paket gratis.",
+      "li3": "<strong>Kamu mengandalkan fitur yang tidak dibahas di sini.</strong> Kalau alur kerja OpusClip tertentu penting bagimu, konfirmasikan di opus.pro dan uji apakah Shortsmith mencakupnya sebelum beralih."
+    },
+    "test": {
+      "heading": "Cara menjalankan tes yang adil sendiri",
+      "intro": "Perbandingan yang paling penting adalah yang memakai kontenmu sendiri:",
+      "li1": "Pilih dua atau tiga rekaman yang mewakili kanalmu: satu yang mudah (satu pembicara), satu yang sulit (banyak pembicara, berbagi layar).",
+      "li2": "Jalankan masing-masing di kedua alat dengan pengaturan default, dan catat waktu dari pengiriman sampai clip selesai.",
+      "li3": "Acak clip-nya dan tinjau tanpa tahu alat mana yang membuat masing-masing. Nilai apakah tiap clip masuk akal tanpa konteks, punya hook yang jelas, membingkai pembicara dengan benar, dan punya caption yang akurat.",
+      "li4": "Hitung edit yang dibutuhkan tiap clip sebelum kamu mau mempostingnya. Waktu mengedit adalah biaya yang tidak terlihat di harga langganan.",
+      "demo": "Ingin melihat keluaran Shortsmith dulu? <demo>Halaman demo</demo> menampilkan clip sungguhan di samping tautan ke stempel waktu asli."
+    },
+    "sources": {
+      "heading": "Sumber",
+      "opus": "Pusat bantuan OpusClip: <plans>Paket dan kredit</plans> serta <watermark>Watermark</watermark>. Paket bisa berubah; konfirmasi detail terkini di <site>opus.pro</site>.",
+      "shortsmith": "Shortsmith: <repo>repositori publik</repo>, termasuk <compose>docker-compose.yml</compose>, <config>dokumen konfigurasi</config>, dan <billing>aturan tagihan</billing>. Harga yang di-host berasal dari bagian harga di situs ini."
+    }
+  },
+  "self-host-shortsmith-docker": {
+    "title": "Cara Host Sendiri Shortsmith dengan Docker Compose",
+    "description": "Host sendiri Shortsmith, AI video clipper open source: kebutuhan, penyiapan .env, opsi Whisper + Ollama yang sepenuhnya lokal, pemeriksaan pertama, dan daftar periksa produksi.",
+    "eyebrow": "Panduan Host Sendiri",
+    "category": "Panduan",
+    "readingTime": "9 mnt baca",
+    "summary": "Panduan praktis stack Docker Compose repositori: apa yang dilakukan tiap layanan, kunci apa yang kamu butuhkan, cara berjalan tanpa AI cloud, dan apa yang perlu diperkuat sebelum produksi.",
+    "breadcrumb": "Host sendiri Shortsmith",
+    "toc": {
+      "stack": "Yang kamu jalankan",
+      "requirements": "Kebutuhan",
+      "install": "Instal",
+      "local": "AI sepenuhnya lokal",
+      "verify": "Verifikasi",
+      "production": "Daftar periksa produksi",
+      "upgrade": "Pembaruan & cadangan",
+      "faq": "FAQ"
+    },
+    "faqs": {
+      "0": {
+        "question": "Apakah Shortsmith yang di-host sendiri gratis?",
+        "answer": "Kodenya gratis di bawah AGPL-3.0 dan mode host sendiri tidak punya batas generasi atau paywall. Kamu tetap membayar perangkat atau server sendiri, serta pemakaian transkripsi cloud atau LLM apa pun yang kamu konfigurasi. Penyiapan Whisper + Ollama menghindari biaya AI per permintaan, tapi butuh komputasi lokal yang cukup."
+      },
+      "1": {
+        "question": "Bisakah Shortsmith berjalan tanpa layanan AI cloud sama sekali?",
+        "answer": "Ya, untuk analisis clip. Atur TRANSCRIPTION_PROVIDER=whisper untuk mentranskripsi secara lokal dan LLM=ollama:<model> untuk memilih clip dengan model lokal. Mengunduh tautan YouTube tetap butuh akses internet; file yang diunggah tidak. B-roll opsional memakai API Pexels."
+      },
+      "2": {
+        "question": "Apakah saya butuh GPU?",
+        "answer": "Tidak. Template .env.example mengatur BACKEND_CPU_ONLY=true, yang memasang PyTorch khusus CPU. Transkripsi Whisper khusus CPU lebih lambat daripada API cloud, jadi video panjang memakan waktu lebih lama di perangkat sederhana."
+      },
+      "3": {
+        "question": "Apakah ini berjalan di Apple Silicon?",
+        "answer": "Ya, dengan catatan: image backend dan worker berjalan sebagai linux/amd64 di bawah emulasi. BACKEND_CPU_ONLY=true menghindari unduhan NVIDIA, tapi tidak mengaktifkan akselerasi GPU Apple."
+      },
+      "4": {
+        "question": "Bagaimana saya menjaga instans tetap privat?",
+        "answer": "Buat akunmu, lalu atur DISABLE_SIGN_UP=true dan buat ulang kontainer frontend. Compose mengikat setiap port ke 127.0.0.1, jadi tidak ada yang publik sampai kamu menambahkan reverse proxy."
+      }
+    },
+    "intro": "Shortsmith adalah AI video clipper open source berbasis SupoClip. Repositori yang sama menyertakan stack Docker Compose yang bisa kamu jalankan di laptop, server rumah, atau VPS. Panduan ini mengikuti stack itu persis seperti yang ada di <repo>repositori</repo>. Kalau sebuah langkah bergantung pada penyedia atau perangkatmu, kami mengatakannya alih-alih menebak.",
+    "introChoice": "Lebih suka tidak menjalankan infrastruktur? <hosted>Aplikasi yang di-host</hosted> menjalankan pipeline yang sama. Masih memilih alat? Baca <comparison>perbandingan Shortsmith vs OpusClip</comparison> kami dulu.",
+    "stack": {
+      "heading": "Yang sedang kamu jalankan",
+      "lead": "<code>docker compose up</code> memulai kontainer ini, semuanya didefinisikan di <compose>docker-compose.yml</compose>:",
+      "caption": "Layanan dalam stack Docker Compose Shortsmith",
+      "service": "Layanan",
+      "role": "Peran",
+      "port": "Port host",
+      "rows": {
+        "frontend": {
+          "role": "Aplikasi web Next.js, autentikasi, dan proxy API",
+          "port": "FRONTEND_PORT (3107 di .env.example; 3001 jika tidak diatur)"
+        },
+        "backend": {
+          "role": "API FastAPI; dokumen di /docs",
+          "port": "8000"
+        },
+        "worker": {
+          "role": "Worker ARQ: unduh, transkripsi, analisis, render",
+          "port": "tidak ada"
+        },
+        "postgres": {
+          "role": "PostgreSQL 15: pengguna, tugas, clip",
+          "port": "tidak ada"
+        },
+        "redis": {
+          "role": "Redis 7: antrean pekerjaan dan progres langsung",
+          "port": "6379"
+        },
+        "mcp": {
+          "role": "Server MCP untuk klien AI (opsional untuk tetap dijalankan)",
+          "port": "9100"
+        }
+      },
+      "after": "Setiap port yang dipublikasikan diikat ke <code>127.0.0.1</code>, jadi instalasi baru hanya bisa dijangkau dari mesin itu sendiri. Clip yang dihasilkan, unggahan, Postgres, dan Redis disimpan di volume Docker bernama, jadi mereka bertahan saat kontainer dimulai ulang. Kalau kamu tidak memakai MCP, hentikan kontainer itu dengan <code>docker compose stop mcp</code>."
+    },
+    "requirements": {
+      "heading": "Kebutuhan",
+      "li1": "<strong>Docker</strong> dengan Compose v2 (<code>docker compose</code>) atau <code>docker-compose</code> yang berdiri sendiri, plus Git.",
+      "li2": "<strong>Sumber transkripsi</strong>, diatur dengan <code>TRANSCRIPTION_PROVIDER</code>: <code>assemblyai</code> (default, butuh <code>ASSEMBLY_AI_API_KEY</code>), <code>whisper</code> (lokal, tanpa kunci), atau <code>youtube_captions</code> (hanya tautan YouTube).",
+      "li3": "<strong>LLM untuk pemilihan clip</strong>, diatur dengan <code>LLM=provider:model</code>: OpenAI, Google, Anthropic, OpenRouter (masing-masing butuh kunci API-nya), atau model <code>ollama:</code> lokal.",
+      "li4": "<strong>Opsional:</strong> <code>PEXELS_API_KEY</code> untuk overlay B-roll.",
+      "note": "Build image pertama mengunduh dependensi Python dan Node. <quickstart>Mulai cepat</quickstart> memperkirakan 5–10 menit; itu bervariasi menurut koneksi dan CPU-mu."
+    },
+    "install": {
+      "heading": "Instal dengan Docker Compose",
+      "clone": "1. Kloning dan buat file environment-mu",
+      "labelTerminal": "terminal",
+      "providersHeading": "2. Pilih penyedia di <code>.env</code>",
+      "providersBody": "Template secara default memakai <code>LLM=openrouter:anthropic/claude-sonnet-5.5</code>. Pemrosesan gagal kecuali kamu mengatur <code>OPENROUTER_API_KEY</code> atau mengarahkan <code>LLM</code> ke penyedia yang punya kuncinya. Penyiapan cloud minimal terlihat seperti ini:",
+      "labelEnv": ".env",
+      "secrets": "Buat setiap rahasia dengan <code>openssl rand -base64 32</code>. <code>SELF_HOST=true</code> (default) mematikan tagihan dan menghapus batas generasi per akun.",
+      "build": "3. Build dan mulai",
+      "open": "Buka <code>http://localhost:3107</code>, buat akun, lalu tempel tautan YouTube, Twitch, atau Kick atau unggah file. Dokumen API ada di <code>http://localhost:8000/docs</code>."
+    },
+    "local": {
+      "heading": "Opsi: transkripsi dan pemilihan clip yang sepenuhnya lokal",
+      "intro": "Untuk menjaga transkrip dan analisis di perangkatmu sendiri, gabungkan Whisper lokal dengan model Ollama:",
+      "worker": "Worker membuat panggilan Ollama dari dalam kontainernya, jadi Ollama harus bisa dijangkau dari sana, bukan hanya dari shell-mu. Cara mencapainya bergantung pada tempat Ollama berjalan:",
+      "desktopHeading": "Ollama di host, dengan Docker Desktop (macOS, Windows)",
+      "desktop": "Tidak perlu penyiapan tambahan. Docker Desktop meneruskan <code>host.docker.internal</code> ke host, jadi biarkan <code>OLLAMA_BASE_URL</code> kosong dan tarik model dengan <code>ollama pull gpt-oss:20b</code>.",
+      "linuxHeading": "Ollama di host, dengan Docker Engine (Linux)",
+      "linux": "Compose memetakan <code>host.docker.internal</code> ke gateway bridge Docker, tapi Ollama secara default hanya mendengarkan di <code>127.0.0.1</code>, jadi koneksi worker ditolak. Buat Ollama mendengarkan di semua antarmuka:",
+      "expose": "Itu juga membuka port 11434 di antarmuka jaringanmu. Ollama tidak punya autentikasi, jadi blokir port itu dari luar mesin dengan firewall-mu. Kalau firewall-mu menyaring lalu lintas dari jaringan Docker, izinkan juga kontainer untuk mencapainya.",
+      "containerHeading": "Ollama di kontainernya sendiri",
+      "container": "Tambahkan ke stack dengan file override, lalu arahkan Shortsmith ke nama layanan, bukan ke host:",
+      "labelOverride": "docker-compose.override.yml (gabungkan ke override yang sudah kamu punya)",
+      "labelEnvTerminal": ".env dan terminal",
+      "whichever": "Penyiapan mana pun yang kamu pilih, uji dari dalam worker sebelum mengirim video. Pemeriksaan mencari <code>gpt-oss:20b</code> karena itu model dalam nilai <code>LLM</code> contoh. Kalau kamu memilih model lain, ganti dengan nama persis setelah <code>ollama:</code> di pengaturan <code>LLM</code>-mu. Ollama mencantumkan model yang ditarik tanpa tag sebagai <code>name:latest</code>, jadi pakai bentuk itu dalam pemeriksaan.",
+      "ready": "<code>model ready</code> berarti worker bisa mencapai Ollama dan model yang kamu cari terpasang. Tidak ada keluaran berarti koneksi gagal atau modelnya hilang, jadi jalankan ulang perintah tanpa <code>grep</code> untuk melihat yang mana. Model Whisper yang lebih kecil menukar akurasi dengan kecepatan, dan kualitas clip bergantung pada LLM. Bandingkan model lokal dengan yang di-host pada rekaman yang kamu kenal sebelum mengalihkan seluruh backlog."
+    },
+    "verify": {
+      "heading": "Verifikasi instalasi",
+      "li1": "Buat akun dan kirim video pendek dulu, supaya kesalahan konfigurasi gagal dengan cepat.",
+      "li2": "Pastikan halaman tugas menampilkan pembaruan progres. Kalau tetap dalam antrean, periksa log worker.",
+      "li3": "Putar dan unduh clip yang selesai.",
+      "stuck": "Tugas yang macet biasanya karena kunci penyedia yang hilang atau worker yang tidak bisa mencapai Redis. <guide>Panduan pemecahan masalah</guide> membahas kasus yang umum."
+    },
+    "production": {
+      "heading": "Daftar periksa produksi",
+      "intro": "File Compose disetel untuk mulai. Sebelum menaruhnya di domain publik:",
+      "li1": "<strong>Build frontend produksi.</strong> Compose secara default memakai target <code>development</code> yang hot-reload dan memasang <code>frontend/src</code> ke dalam kontainer. Atur <code>FRONTEND_BUILD_TARGET=runner</code> dan <code>NODE_ENV=production</code> di <code>.env</code>, lalu buang pemasangan sumber dengan override di bawah.",
+      "li2": "<strong>Akhiri HTTPS di reverse proxy</strong> (Caddy, nginx, Traefik) di depan port frontend.",
+      "li3": "<strong>Buka backend untuk unggahan.</strong> Dengan <code>BACKEND_AUTH_SECRET</code> yang diatur, browser mengunggah file video langsung ke <code>NEXT_PUBLIC_API_URL</code>. Arahkan itu ke URL backend HTTPS publik, dan tambahkan origin frontend-mu ke <code>CORS_ORIGINS</code>.",
+      "li4": "<strong>Atur origin publikmu di mana-mana:</strong> <code>NEXT_PUBLIC_APP_URL</code>, <code>BETTER_AUTH_URL</code>, dan <code>CORS_ORIGINS</code>. Nilai <code>NEXT_PUBLIC_*</code> tertanam saat build, jadi build ulang frontend setelah mengubahnya.",
+      "li5": "<strong>Ubah kata sandi basis data.</strong> <code>docker-compose.yml</code> menuliskan <code>supoclip_password</code> di empat tempat: <code>POSTGRES_PASSWORD</code> di layanan <code>postgres</code> dan <code>DATABASE_URL</code> di layanan <code>frontend</code>, <code>backend</code>, dan <code>worker</code>. Mengedit <code>POSTGRES_PASSWORD</code> di <code>.env</code> saja tidak mengubah salah satunya. Timpa keempatnya, seperti ditunjukkan di bawah.",
+      "li6": "<strong>Atur <code>REDIS_PASSWORD</code></strong>; kontainer Redis mengaktifkan AUTH saat nilainya tidak kosong.",
+      "li7": "<strong>Tutup pendaftaran</strong> dengan <code>DISABLE_SIGN_UP=true</code> kalau instans hanya untuk timmu.",
+      "li8": "<strong>Tinjau batasnya:</strong> <code>MAX_VIDEO_DURATION</code> (default 5400 dtk, 90 menit) dan <code>MAX_VIDEO_UPLOAD_BYTES</code> (default 4 GB).",
+      "labelReset": "docker-compose.override.yml (Compose v2.24+)",
+      "passwordIntro": "Untuk kata sandi basis data, taruh nilai baru di <code>POSTGRES_PASSWORD</code> dalam <code>.env</code>. Buat dengan <code>openssl rand -hex 24</code>, karena hex tidak perlu di-escape di dalam URL. Lalu arahkan keempat pengaturan ke nilai itu di file override yang sama:",
+      "labelPassword": "docker-compose.override.yml (gabungkan ke override yang sudah kamu punya)",
+      "existing": "Postgres membaca <code>POSTGRES_PASSWORD</code> hanya saat menginisialisasi volume data yang kosong. Pada instalasi yang sudah punya basis data, mengubah variabel itu tidak mengubah kata sandi yang sebenarnya. Putar kata sandinya di dalam Postgres dulu, memakai nilai yang sama seperti di <code>.env</code>. Lalu buat ulang layanan agar mereka memakai URL baru:",
+      "labelExisting": "terminal (basis data yang sudah ada)",
+      "docs": "<config>docs/configuration.md</config> mencantumkan setiap variabel, dan <setup>docs/setup.md</setup> membahas port kustom dan URL publik."
+    },
+    "upgrade": {
+      "heading": "Pembaruan dan cadangan",
+      "intro": "<code>init.sql</code> membuat skema hanya saat volume Postgres pertama kali diinisialisasi. Setelah itu, tidak ada yang memperbarui skema secara otomatis. Kalau versi baru menambahkan file di bawah <code>frontend/prisma/migrations</code> atau <code>backend/migrations</code>, terapkan sendiri sebelum kamu memulai ulang aplikasi. Kode baru yang berjalan terhadap skema lama gagal karena kolom dan tabel yang hilang. Cadangkan dulu, dan hentikan layanan aplikasi agar mereka tidak mengambil kode baru terlalu cepat. Frontend pengembangan me-reload sumber yang dipasang.",
+      "apply": "Baca setiap file yang tercantum, lalu terapkan dalam satu transaksi. Terapkan migrasi Prisma sesuai urutan stempel waktu dan migrasi backend sesuai urutan nomor:",
+      "prisma": "Basis data yang dibuat oleh <code>init.sql</code> tidak punya riwayat migrasi Prisma. Jangan jalankan <code>prisma migrate deploy</code> terhadapnya: Prisma akan memutar ulang setiap migrasi dari yang pertama dan gagal pada tabel yang sudah ada. Kalau kamu ingin Prisma mengelola migrasi mulai sekarang, baseline dulu dengan",
+      "prismaAfter": ", tapi hanya untuk migrasi yang perubahannya sudah ada di skemamu. Prisma secara permanen melewati migrasi apa pun yang kamu tandai sebagai diterapkan, bahkan kalau perubahannya belum ada.",
+      "volumes": "Cadangkan volume <code>clips</code> dan <code>uploads</code> juga kalau kamu perlu menyimpan video yang dirender. Jangan pernah menjalankan <code>docker compose down -v</code> pada instans yang kamu pedulikan: itu menghapus setiap volume, termasuk basis data.",
+      "customize": "Ingin menyesuaikan keluaran? Taruh font <code>.ttf</code> di <code>backend/fonts/</code> dan transisi <code>.mp4</code> di <code>backend/transitions/</code>. Mereka muncul di aplikasi secara otomatis. Untuk otomatisasi, buat kunci API di Pengaturan dan pakai <api>REST API</api> atau server MCP yang disertakan."
+    }
+  },
+  "best-free-opusclip-alternative": {
+    "title": "Alternatif OpusClip Gratis Terbaik yang Di-host Sendiri",
+    "description": "Mencari alternatif OpusClip yang gratis? Shortsmith adalah pembuat clip AI open source yang bisa kamu host sendiri secara gratis. Shortsmith mengubah video panjang jadi short vertikal ber-caption.",
+    "eyebrow": "Alternatif OpusClip",
+    "category": "Perbandingan",
+    "readingTime": "6 mnt baca",
+    "summary": "Shortsmith dibuat untuk kreator yang ingin AI clipping gaya OpusClip di infrastruktur mereka sendiri, tanpa langganan berbasis kredit yang lain.",
+    "lead": "Kalau kamu suka ide OpusClip tapi ingin jalur yang gratis dan open source, Shortsmith memberimu alur inti: temukan momen kuat di video panjang, bingkai ulang secara vertikal, tambahkan caption, dan ekspor clip untuk Shorts, Reels, dan TikTok.",
+    "bestFor": "Paling cocok untuk",
+    "audience": {
+      "0": "Kreator yang meng-clip video YouTube jadi short",
+      "1": "Tim yang lebih suka host sendiri",
+      "2": "Developer yang ingin kendali di tingkat sumber"
+    },
+    "openHosted": "Buka versi yang di-host",
+    "p1": "OpusClip membantu mendefinisikan kategori AI clipping modern: unggah video panjang, biarkan AI mengidentifikasi momen, dan publikasikan clip pendek lebih cepat. Alur itu berguna. Gesekannya mulai saat kamu ingin jalur gratis, kendali lebih, atau pipeline yang bisa kamu jalankan sendiri.",
+    "p2": "Shortsmith adalah alternatif OpusClip gratis terbaik untuk kreator yang spesifik itu: seseorang yang ingin penemuan clip berbantuan AI, ekspor vertikal, caption, dan kendali atas sistem di baliknya. Kamu juga bisa <hosted>memakai Shortsmith yang di-host</hosted> dengan paket berbayar kalau kamu ingin melewati penyiapan sama sekali.",
+    "verdict": {
+      "heading": "Putusan singkat",
+      "body": "Pilih Shortsmith kalau kamu ingin AI video clipper open source yang bisa kamu host sendiri. Pilih OpusClip kalau kamu ingin produk yang di-host dan dikelola, dan nyaman dengan batas paket, aturan watermark, serta model kreditnya."
+    },
+    "stats": {
+      "0": {
+        "label": "Biaya",
+        "value": "Kode sumber gratis"
+      },
+      "1": {
+        "label": "Alur kerja",
+        "value": "Video panjang jadi short"
+      },
+      "2": {
+        "label": "Kendali",
+        "value": "Bisa di-host sendiri"
+      }
+    },
+    "why": {
+      "heading": "Kenapa kreator mencari alternatif OpusClip",
+      "p1": "Alasannya biasanya sederhana: kreator ingin biaya lebih rendah, ekspor yang lebih bersih di alur gratis, kendali lebih atas pemrosesan, dan lebih sedikit batas saat mereka memproses video YouTube lama, podcast, webinar, atau siaran langsung secara berkelompok.",
+      "p2": "Pusat bantuan OpusClip sendiri mengatakan ekspor paket gratis bisa menampilkan watermark OpusClip, dan paketnya memakai kredit untuk menit pemrosesan. Untuk uji coba santai, itu bisa baik-baik saja. Untuk clipping yang berulang, itu bisa mendorong kreator ke alur yang di-host dan berbayar."
+    },
+    "different": {
+      "heading": "Yang membuat Shortsmith berbeda",
+      "p1": "Shortsmith bukan sekadar pembungkus tipis di atas editor yang di-host. Ini aplikasi clipping open source yang lengkap, dengan backend FastAPI, frontend Next.js, worker latar belakang, transkripsi, penilaian AI, reframing vertikal yang mengikuti wajah, gaya caption, dan preset ekspor.",
+      "p2": "Itu membuat imbangannya jelas. Kamu menanggung penyiapan, tapi mendapat kepemilikan. Kamu bisa memeriksa kode, menyesuaikannya dengan alur kerjamu, dan memutuskan penyedia AI yang di-host atau model lokal mana yang dipakai. <guide>Panduan host sendiri</guide> memandu penyiapannya, termasuk opsi Whisper + Ollama yang sepenuhnya lokal."
+    },
+    "compare": {
+      "heading": "Shortsmith vs OpusClip",
+      "body": "Ringkasan di bawah mencakup yang penting. Untuk perbandingan baris demi baris dengan sumber untuk setiap klaim, baca <comparison>Shortsmith vs OpusClip: perbandingan bersumber</comparison>."
+    },
+    "table": {
+      "feature": "Fitur",
+      "rows": {
+        "0": {
+          "feature": "Model pemakaian gratis",
+          "shortsmith": "Open source dan bisa di-host sendiri tanpa batas paket. Biayamu adalah komputasi dan kunci API milikmu. Aplikasi yang di-host berbayar.",
+          "opusclip": "Paket gratis ada, tapi ekspor bisa menyertakan watermark OpusClip."
+        },
+        "1": {
+          "feature": "Penemuan clip",
+          "shortsmith": "Mentranskripsi video panjang, menilai segmen, dan memunculkan momen pendek yang menjanjikan.",
+          "opusclip": "Alur AI clipping yang dibuat untuk menemukan clip siap sosial dari video panjang."
+        },
+        "2": {
+          "feature": "Format vertikal",
+          "shortsmith": "Crop 9:16 yang berpusat pada wajah, subtitle, dan ekspor yang siap platform.",
+          "opusclip": "Menawarkan ekspor konten pendek dan reframing AI untuk platform sosial."
+        },
+        "3": {
+          "feature": "Kendali",
+          "shortsmith": "Akses sumber penuh, deployment yang bisa diedit, dan tanpa vendor lock-in.",
+          "opusclip": "Produk yang di-host dengan alur yang dikelola dan tingkat langganan."
+        }
+      }
+    },
+    "how": {
+      "heading": "Bagaimana Shortsmith bekerja",
+      "steps": {
+        "0": "Tempel URL YouTube, Twitch, atau Kick, atau unggah video.",
+        "1": "Shortsmith mentranskripsi sumber dan menemukan momen kandidat.",
+        "2": "AI menilai clip untuk kekuatan hook, engagement, nilai, dan kelayakan dibagikan.",
+        "3": "Editor membuat clip vertikal ber-caption dengan framing yang mengikuti wajah.",
+        "4": "Kamu mengekspor short untuk YouTube Shorts, TikTok, Instagram Reels, atau feed lain."
+      }
+    },
+    "better": {
+      "heading": "Kapan Shortsmith pilihan yang lebih baik",
+      "body": "Shortsmith paling baik saat kamu ingin alternatif OpusClip gratis dengan kendali developer. Ini sangat berguna untuk kreator dengan backlog video panjang, agensi yang ingin menyesuaikan alur clipping, atau tim teknis yang ingin AI video clipping di dalam stack mereka sendiri."
+    },
+    "opus": {
+      "heading": "Kapan OpusClip mungkin masih lebih baik",
+      "body": "OpusClip mungkin masih lebih cocok kalau kamu ingin kenyamanan layanan yang di-host dan dipoles, dan tidak ingin memikirkan deployment, infrastruktur, kunci model, antrean, atau pemeliharaan."
+    },
+    "cta": {
+      "kicker": "Gratis kalau kamu host sendiri, paket berbayar kalau tidak",
+      "title": "Mulai buat clip dengan Shortsmith.",
+      "selfHost": "Panduan host sendiri",
+      "openApp": "Buka aplikasi"
+    },
+    "faqs": {
+      "0": {
+        "question": "Apa alternatif OpusClip gratis yang terbaik?",
+        "answer": "Shortsmith adalah alternatif OpusClip gratis yang kuat kalau kamu ingin pembuat clip AI open source yang bisa kamu host sendiri, sesuaikan, dan jalankan dengan alur video milikmu."
+      },
+      "1": {
+        "question": "Apakah Shortsmith sepenuhnya gratis?",
+        "answer": "Basis kode Shortsmith gratis dan open source, dan instalasi yang di-host sendiri tidak punya batas paket. Kamu tetap membayar infrastruktur sendiri serta penyedia transkripsi atau LLM apa pun yang kamu konfigurasi. Aplikasi yang di-host membutuhkan paket berbayar."
+      },
+      "2": {
+        "question": "Apakah Shortsmith menambahkan watermark?",
+        "answer": "Tidak. Pipeline render Shortsmith tidak punya langkah watermark, baik kamu memakai aplikasi yang di-host maupun instalasi yang di-host sendiri."
+      }
+    },
+    "relatedHeading": "Panduan Shortsmith terkait",
+    "sources": {
+      "heading": "Sumber",
+      "body": "Catatan paket dan watermark OpusClip didasarkan pada pusat bantuan resmi OpusClip: <plans>paket dan kredit</plans> serta <watermark>panduan watermark</watermark>."
+    },
+    "toc": {
+      "label": "Artikel",
+      "verdict": "Putusan singkat",
+      "comparison": "Perbandingan",
+      "faq": "FAQ"
+    },
+    "aside": {
+      "title": "Kendali open source",
+      "body": "Pakai Shortsmith saat kamu ingin alur clipping tanpa menyerahkan setiap keputusan ke platform yang di-host."
+    }
+  }
+}

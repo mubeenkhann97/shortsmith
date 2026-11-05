@@ -1,0 +1,43 @@
+# Shortsmith
+
+> Shortsmith is an open-source AI video clipper that turns long videos into captioned, vertical short-form clips for YouTube Shorts, TikTok, Instagram Reels, and similar platforms.
+
+Shortsmith can be used as a hosted web application or self-hosted from its AGPL-3.0 source code. It is based on the open-source SupoClip project (https://github.com/FujiwaraChoki/supoclip). The workflow accepts YouTube URLs and uploaded video files, transcribes the source, proposes promising segments, scores candidate clips, creates face-aware vertical crops, adds word-synced captions, and exports platform-ready videos.
+
+Links below are relative to the site that serves this file.
+
+## Product pages
+
+- [Home](/): Product overview, features, pricing, and hosted application access.
+- [AI video clipper](/ai-video-clipper): AI-assisted highlight detection, virality scoring, captions, and exports.
+- [Open-source video clipper](/open-source-video-clipper): Self-hosting, source access, provider choice, and deployment tradeoffs.
+- [YouTube Shorts clipper](/youtube-shorts-clipper): Workflow for repurposing long YouTube videos into vertical Shorts.
+- [Demo](/demo): Real clips generated from a long-form interview, with source timestamps and pipeline steps.
+
+## Guides and comparisons
+
+- [Blog](/blog): Product comparisons and practical video-clipping workflows.
+- [Self-host Shortsmith with Docker Compose](/blog/self-host-shortsmith-docker): Requirements, environment setup, fully local Whisper + Ollama option, and production checklist.
+- [Shortsmith vs OpusClip](/blog/shortsmith-vs-opusclip): Sourced comparison of deployment, pricing model, watermarks, and workflow.
+- [Best free, self-hosted OpusClip alternative](/blog/best-free-opusclip-alternative): When self-hosting the open-source app beats a credit-based tool.
+
+## Key capabilities
+
+- AI-assisted clip discovery and candidate scoring.
+- YouTube URL and uploaded-file inputs.
+- Face-aware 9:16 vertical reframing.
+- Word-synced animated captions and caption templates.
+- Export presets for YouTube Shorts, TikTok, and Instagram Reels.
+- Hosted web usage or AGPL-3.0 self-hosting.
+- Support for configured hosted language-model providers or Ollama.
+- Transcription via AssemblyAI (default), local Whisper, or YouTube captions.
+- REST API with per-user API keys, and an MCP server for AI clients.
+- No watermark on exported clips.
+
+## Important qualifications
+
+- Virality scores prioritize candidates; they do not guarantee audience performance.
+- The source code is free, but self-hosters provide their own infrastructure and any paid transcription or model-provider usage.
+- A hosted deployment may require a paid plan to process videos; self-hosted installs have no plan limits.
+- Users should process only videos they own or have permission to repurpose.
+- Product capabilities and pricing can change; use this site and its source repository for current details.

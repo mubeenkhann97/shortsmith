@@ -1,0 +1,19 @@
+{
+  "metaTitle": "Shortsmith Änderungen",
+  "metaDescription": "Neue Funktionen, Verbesserungen und Korrekturen in Shortsmith, vom Twitch- und Kick-Clipping bis zum Editor.",
+  "ogTitle": "Shortsmith Änderungen",
+  "ogDescription": "Was sich in Shortsmith für Nutzer geändert hat. Die neuesten Einträge stehen zuerst.",
+  "eyebrow": "Produktupdates",
+  "title": "Änderungen",
+  "intro": "Was sich für Menschen geändert hat, die Shortsmith nutzen, einschließlich der Historie aus dem zugrunde liegenden SupoClip-Projekt. Die neuesten Updates stehen zuerst.",
+  "hostedApp": "Gehostete App",
+  "startClipping": "Jetzt clippen",
+  "relatedChange": "Zugehörige Änderung {label}",
+  "viewOnGitHub": "Changelog auf GitHub ansehen",
+  "categories": {
+    "new": "Neu",
+    "improved": "Verbessert",
+    "fixed": "Behoben",
+    "underTheHood": "Unter der Haube"
+  }
+}
